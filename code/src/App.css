@@ -1,0 +1,146 @@
+
+@font-face {
+    font-family: outfitmedium;
+    src: url(./fonts/Outfit-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: outfitlight;
+    src: url(./fonts/Outfit-Light.ttf);
+}
+
+
+
+
+.App{
+    background-color: white;
+}
+
+h5{
+    position: absolute;
+    left: 430px;
+    top: 55px;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'outfitmedium';
+
+}
+
+h2{
+    position: absolute;
+    left: 670px;
+    top: 95px;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'outfitmedium';
+    background: linear-gradient(14.4deg, #9962FF, #6DB7FD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h10{
+    position: absolute;
+    left: 410px;
+    top: 190px;
+    font-size: 48px;
+    font-weight: 370;
+    font-family: 'outfitlight';
+
+}
+
+h11{
+    position: absolute;
+    left: 645px;
+    top: 250px;
+    font-size: 48px;
+    font-weight: 370;
+    font-family: 'outfitlight';
+
+}
+
+
+.getr{
+    position: absolute;
+    right: -100px;
+    width: 191px;
+    height: 66px;
+    border-radius: 40px ;
+    border: none;
+    color : white;
+    background-color: white;
+    background-image: linear-gradient(80deg, #9757EB , #69AFF0);
+    cursor: pointer;
+
+}
+
+.getr:hover{
+    background-image: linear-gradient(336deg, #9757EB , #69AFF0);
+}
+
+
+.sales{
+    position: absolute;
+    right: -278px;
+    width: 169px;
+    height: 66px;
+    border-radius: 40px ;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.3s;
+
+}
+
+.sales::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 40px; 
+    padding: 2.4px; 
+    background-color: white;
+  
+    background:linear-gradient(120deg, #6420BD , #6DB7FD); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude; 
+}
+
+
+.sales::before:hover{
+    padding: 4px;
+}
+
+.btn{
+    position: absolute;
+    left: 590px;
+    top: 350px;
+}
+
+
+
+h12{
+    font-size: 18px;
+}
+
+h13{
+    color : #6420BD;
+    font-size: 18px;
+}
+
+
+.arrow{
+  left: 10px;
+  position: absolute;
+}
+
+
+
+h19{
+  position: relative;
+  top: 150px;
+  left: 50px;
+}

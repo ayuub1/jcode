@@ -1,0 +1,18 @@
+body{
+        background-color: white; 
+        height: 3000px;
+}
+
+/**
+::-webkit-scrollbar {
+        background-color: red;
+      }
+
+::-webkit-scrollbar-thumb{
+        color: white;
+      }
+::-webkit-scrollbar-track{
+        color: aqua;
+}
+
+**/

@@ -1,0 +1,181 @@
+
+@font-face {
+    font-family: outfitmedium;
+    src: url(../../fonts/Outfit-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: outfitlight;
+    src: url(../../fonts/Outfit-Light.ttf);
+}
+
+@font-face {
+    font-family: outfitsemi;
+    src: url(../../fonts/Outfit-SemiBold.ttf);
+}
+
+
+
+
+.bgs{
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    width: 98.5%;
+    height: 900px;
+    padding: 10px;
+
+}
+
+
+
+
+.list{
+    position: absolute;
+    left: -20px;
+}
+
+
+
+.MobileApps{
+    background-color: aqua;
+    width: 387px;
+    height: 470px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.Desktop{
+    background-color: #272727;
+    width: 387px;
+    height: 470px;
+    position: absolute;
+    top: 200px;
+    left: 470px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+
+
+.Website{
+    background-color: #272727;
+    width: 387px;
+    height: 470px;
+    position: absolute;
+    top: 200px;
+    left: 895px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.arrow{
+    position: absolute;
+    left: 1320px;
+    top: 400px;
+    cursor: pointer;
+}
+
+
+
+h14{
+    position: absolute;
+    left: 27%;
+    top: 60px;
+    font-size: 60px;
+    font-family: outfitmedium
+}
+
+
+
+.mobile{
+
+  position: relative;
+  left: 30px;
+  top: 30px;
+  width: 60px;
+  height: 60px;
+
+}
+
+
+
+
+.pc{
+
+  position: relative;
+  left: 30px;
+  top: 30px;
+  width: 60px;
+  height: 60px;
+
+}
+
+
+
+
+
+.web{
+
+  position: relative;
+  left: 30px;
+  top: 30px;
+  width: 60px;
+  height: 60px;
+
+}
+
+
+
+h16{
+  position: relative;
+  left: 32px;
+  top: 15px;
+  font-size : 40px;
+  font-family: outfitsemi;
+  background-image: linear-gradient(to right, #65E27C, #1CF6F4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+h17{
+  position: relative;
+  left: 32px;
+  top: 15px;
+  font-size : 40px;
+  font-family: outfitsemi;
+  background-image: linear-gradient(to right, #1CF6F4, #7181FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+h18{
+  position: relative;
+  left: 32px;
+  top: 15px;
+  font-size : 40px;
+  font-family: outfitsemi;
+  background-image: linear-gradient(to right, #7181FF, #FCD87:q
+  2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
